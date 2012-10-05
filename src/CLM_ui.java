@@ -5,7 +5,7 @@ import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.packet.Presence;
 
 public class CLM_ui {
-	private static String resource = "192.168.200.15";
+	private static String resource = "192.168.200.34";
 	private smack_connection connection;
 	public CLM_ui(){
 		

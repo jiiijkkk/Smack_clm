@@ -1,7 +1,6 @@
 import java.io.IOException;
 
 public class CLM {
-	private static String resource = "192.168.200.34";
 	smack_connection connection;
 	CLM_ui ui;
 	public CLM(){
