@@ -34,7 +34,7 @@ public class smack_connection {
 	public smack_connection(String resource , CLM_ui ui){
 	   	// Create the configuration for this new connection
 		this.resource=resource;
-	   	ConnectionConfiguration config = new ConnectionConfiguration(this.resource, 5222);
+	   	ConnectionConfiguration config = new ConnectionConfiguration(this.resource, 5222, "localhost");
 	   	config.setCompressionEnabled(true);
 	   	config.setSASLAuthenticationEnabled(true);
 	   	this.connection = new XMPPConnection(config);
